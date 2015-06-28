@@ -4,9 +4,9 @@ dependencies:
     - ~/.ivy2
     - ~/.sbt
   override:
-    - ~/sbt update
+    - sbt update
 
 test:
   override:
-    - ~/sbt clean test
+    - sbt clean test
 
