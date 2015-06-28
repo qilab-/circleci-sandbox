@@ -4,9 +4,6 @@ dependencies:
     - ~/.ivy2
     - ~/.sbt
 
-  override:
-    - "./activator update"
-
 test:
   override:
     - "./activator clean test"
