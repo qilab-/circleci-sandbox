@@ -6,5 +6,5 @@ dependencies:
 
 test:
   override:
-    - "./activator clean test"
+    - "./sbt clean test"
 
