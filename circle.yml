@@ -8,5 +8,6 @@ dependencies:
 
 test:
   override:
-    - sbt clean test
+    - cd sources/api && sbt clean test
+    - cd sources/web && sbt clean test
 

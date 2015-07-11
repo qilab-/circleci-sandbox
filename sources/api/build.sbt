@@ -1,4 +1,4 @@
-name := """circleci-sandbox"""
+name := """circleci-sandbox-api"""
 
 version := "1.0"
 
